@@ -31,7 +31,7 @@ This repository contains Java code examples illustrating various Object-Oriented
 
 ---
 
-## 1._Interfaces in Java_
+## 1.Interfaces in Java <a name="interfaces-in-java"></a>
 
 #### Example
 
