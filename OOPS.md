@@ -64,7 +64,7 @@ public class Demo {
 
 ---
 
-## 2.Abstract Classes in Java
+## 2.Abstract Classes in Java <a name="abstract-classes-in-java"></a>
 
 #### Example
 
@@ -90,7 +90,7 @@ public class demo {
 
 ---
 
-## 3.Method Overriding
+## 3.Method Overriding <a name="method-overriding"></a>
 
 #### Example
 
@@ -130,7 +130,7 @@ put final in front of class or function.
 
 ---
 
-## 4.Method Overloading
+## 4.Method Overloading <a name="method-overloading"></a>
 
 #### Example
 
@@ -161,7 +161,7 @@ public class Demo {
 
 ---
 
-## 5.Polymorphism
+## 5.Polymorphism <a name="polymorphism"></a>
 
 Polymorphism in Java can be demonstrated through both Method Overloading and Method Overriding. Refer to the respective examples above.
 
@@ -169,7 +169,7 @@ Polymorphism is Nothing but the implementation of Method Overloading OR Method O
 
 ---
 
-## 6.Encapsulation
+## 6.Encapsulation <a name="encapsulation"></a>
 
 #### Example
 
@@ -208,7 +208,7 @@ public class Demo {
 
 ---
 
-## Exception Handling (try-catch)
+## Exception Handling (try-catch) <a name="exception-handling-try-catch"></a>
 
 #### Example
 
@@ -234,7 +234,7 @@ public class demo {
 
 ---
 
-## Multi-Catch Blocks
+## Multi-Catch Blocks <a name="multi-catch-blocks"></a>
 
 #### Example
 
@@ -263,7 +263,7 @@ public class demo {
 
 ---
 
-## Nested Try-Catch
+## Nested Try-Catch <a name="nested-try-catch"></a>
 
 #### Example
 
@@ -293,7 +293,7 @@ public class demo {
 
 ---
 
-## Try-Catch-Finally
+## Try-Catch-Finally <a name="try-catch-finally"></a>
 
 #### Example
 
@@ -316,7 +316,7 @@ public class Demo {
 
 ---
 
-## Throw in Java
+## Throw in Java <a name="throw-in-java"></a>
 
 #### Example
 
@@ -340,7 +340,7 @@ public class Demo {
 
 ---
 
-## Throws in Java
+## Throws in Java <a name="throws-in-java"></a>
 
 #### Example
 
@@ -361,7 +361,7 @@ public class Demo {
 
 ---
 
-## User Defined Exception
+## User Defined Exception <a name="user-defined-exception"></a>
 
 #### Example
 
@@ -400,7 +400,7 @@ public class demo {
 
 ---
 
-### Byte Stream in Java
+### Byte Stream in Java <a name="byte-stream-in-java"></a>
 
 #### Example
 
@@ -426,7 +426,7 @@ public class Demo {
 
 ---
 
-## Functional Interface
+## Functional Interface <a name="functional-interface"></a>
 Functional interface contain only one abstract method , but it can have any no of default, static and object class methods.
 
 A functional interface in Java is an interface that contains exactly one abstract method. It serves as a blueprint for lambda expressions and method references, enabling functional programming concepts within Java. Functional interfaces can have any number of default methods or static methods but must declare exactly one abstract method to qualify as a functional interface.Mostly they are used for writing concise and expressive code, particularly when dealing with operations like mapping, filtering, and reducing elements in collections, as well as in event handling.
@@ -469,7 +469,7 @@ public class Main {
 
 ---
 
-## Lambda Expressions
+## Lambda Expressions <a name="lambda-expressions"></a>
 In Java, lambda expressions provide a concise way to express instances of functional interfaces (interfaces with a single abstract method)
 
 Instead of creating separate classes, lambda expressions are used to directly provide implementations of the performTask() method.
@@ -509,7 +509,7 @@ public class Main {
 
 ---
 
-## Method Reference
+## Method Reference <a name="method-reference"></a>
  Generally of two types,
 1. Reference to a Static Method
 2. Reference to an Instance Method of a Particular Object
@@ -568,7 +568,7 @@ Method Reference: myCoffeeMachine::brewCoffee is a method reference to the insta
 
 ---
 
-## Stream API
+## Stream API <a name="stream-api"></a>
 Java's Stream API provides a functional approach to process collections of objects. It allows operations like filtering, mapping, and reducing elements with concise lambda expressions. Streams can be sequential or parallel, facilitating efficient, multicore processing. 
 
 Operations are lazily executed, enhancing performance by avoiding unnecessary computations. Terminal operations like `forEach`, `reduce`, and `collect` produce results or side-effects when streams are processed. Intermediate operations like `filter`, `map`, and `sorted` transform streams without affecting the source data.
@@ -644,7 +644,7 @@ public class StreamExample {
 
 ---
 
-## Static and Default Methods
+## Static and Default Methods <a name="static-and-default-methods"></a>
 Static Methods in Java: Static methods in Java interfaces are methods that can be directly called using the interface name, without needing an object of a class that implements the interface.They are declared with the static keyword and are used for providing utility methods or common functionality related to the interface itself, which cannot be overridden by implementing classes.
 
 Default Methods in Java: Default methods in Java interfaces are methods that have a default implementation provided in the interface itself. Implementing classes can choose to use this default implementation or override it with their own implementation. They are declared with the default keyword and allow interfaces to evolve by adding new methods without breaking compatibility with existing implementations.
@@ -729,7 +729,7 @@ public class Main {
 
 ---
 
-### Try with Resources
+### Try with Resources <a name="try-with-resources"></a>
 Try-with-resources in Java simplifies resource management by automatically closing resources that implement `AutoCloseable`.
 It ensures that each resource declared within its parentheses is closed at the end of the statement, handling exceptions gracefully. This feature reduces code for manual resource management, such as closing files or database connections, and replaces traditional `try-finally` blocks.
 
@@ -806,7 +806,7 @@ This is the essence of try-with-resources: ensuring that resources (like Counter
 
 ---
 
-## Sealed Class
+## Sealed Class <a name="sealed-class"></a>
 In Java, a sealed class is a type of class that restricts which other classes or interfaces can extend or implement it. This restriction is enforced using the sealed keyword in the class declaration, followed by the specific subclasses or interfaces that are permitted to extend or implement the sealed class, denoted by the permits keyword. This feature enhances code maintainability and security by explicitly defining and limiting the class hierarchy, preventing unauthorized extensions.
 #### Example
 
@@ -888,7 +888,7 @@ super(name) to invoke the constructor of the superclass (Animal) and initialize 
 
 ---
 
-## Base64 Encode and Decode
+## Base64 Encode and Decode  <a name="base64-encode-and-decode"></a>
 1->Basic Encoding and Decoding Example
 
 2->URL Encoding and Decoding in JAVA.
